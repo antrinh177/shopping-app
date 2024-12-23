@@ -7,6 +7,7 @@
       - Provide a button to add products to the cart.
       - Update the number of selected products on the cart icon.
       - Provide a link to view the selected products in cart page.
+        
     • Cart Management Page:
       - Display all added items in the cart, including their details: name, price, size, color, and quantity.
       - Provide an option to go back to the Home page to edit items.
@@ -16,6 +17,7 @@
       - Provide a link to the Checkout page only when there is item on cart. Checkout Page:
       - Allow the user to enter their shipping information and validate the provided input.
       - Include a button to select either express or standard shipping, with different shipping fees.
+        
     • Checkout Page:
       - Calculate the total price, including product price, tax, and shipping fee.
       - Provide a button to redirect back to the Home page.
@@ -25,13 +27,23 @@
 3. Technologies to be Used
    
     • Variables and Data Types
+   
     • Operators
+   
     • Control Flow
+   
     • Functions
+   
     • Objects and Arrays
+   
     • DOM Manipulation
+   
     • JSON (JavaScript Object Notation)
+   
     • Async/Await
+   
     • Local Storage
+   
     • Error Handling
+   
     • API: Express JS
