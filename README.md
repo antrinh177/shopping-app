@@ -1,4 +1,5 @@
 1. Project Scope
+
     • Home Page:
       - Display products along with their details: name, rating, color, size, and price.
       - Provide a sidebar to display products by category.
@@ -21,7 +22,8 @@
       - Include a button to redirect back to the Cart page.
       - Provide a button to proceed to checkout.
       - Reset cart and input information after checkout.
-2. Technologies to be Used
+3. Technologies to be Used
+   
     • Variables and Data Types
     • Operators
     • Control Flow
