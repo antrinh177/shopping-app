@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Home</title>
+        <link rel="stylesheet" href="styles/main.css">
+        <link rel="stylesheet" href="styles/header.css">
+        <link rel="stylesheet" href="styles/products.css">
+        <link rel="stylesheet" href="styles/sidebar.css">
+        <style>
+            * {
+                box-sizing: border-box;
+            }
+
+            body {
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <div class="header-container">
+                <div class="hamburger-icon">
+                    <img src="images/icons/hamburger-menu.png" alt="Menu">
+                </div>
+
+                <div class="app-logo">
+                    <img src="images/app-logo-white.png" alt="Easy Shopping Logo">
+                </div>
+
+                <!-- Search Bar -->
+                <div class="search-bar">
+                    <input type="text" id="search" placeholder="Search products by name...">
+                </div>
+
+                <!-- Cart Icon -->
+                <div  class="cart-icon">
+                    <a href="Cart.html">
+                        <img src="images/icons/cart-icon.png" alt="Cart">
+                        <span id="cart-count">0</span>
+                    </a>
+                </div>
+                <div class="flag">
+                    <img src="images/canada-flag.png" alt="Canada Flag">
+                </div>
+            </div>
+        </header>
+
+        <div id="sidebar" class="sidebar">
+            <button id="close-btn">x</button>
+            <ul>
+                <li id="new-arrivals"><img src="images/icons/tag.png" alt="new arrivals">New Arrivals</li>
+                <li id="best-sellers"><img src="images/icons/fire.png" alt="best sellers">Best Sellers</li>
+                <li id="five-star-rated"><img src="images/icons/star.png" alt="5-star rated">5-Star Rated</li>
+            </ul>
+        </div>
+
+        <!-- Product List -->
+        <div class="product-container" id="product-list"></div>
+
+        <script src="scripts/products.js"></script>
+        <script src="scripts/sidebar.js"></script>
+
+    </body>
+</html>

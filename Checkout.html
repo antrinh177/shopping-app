@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Checkout</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/checkout.css" />
+  </head>
+  <body>
+    <header>
+      <a href="Home.html">
+        <img id="home-logo" src="images/app-logo-white.png" alt="app logo">
+      </a>
+      <h1>CHECKOUT</h1>
+      <a href="Cart.html">
+          <img id="cart-icon" src="images/icons/cart-icon.png" alt="Cart">
+          <span id="cart-count">0</span>
+      </a>  
+      <img src="images/canada-flag.png" alt="Canada Flag">
+    </header>
+    <div class="CHECKOUT">
+      <!-- Form Container -->
+      <div class="form-container">
+        <!-- Subtitle -->
+        <div class="your-details-subtitle">Your Details</div>
+        <!-- Name Fields -->
+        <div class="name-fields">
+          <div class="first-name">
+            <label for="first-name" class="input-text-label">First Name</label>
+            <input type="text" class="textfield" name="first-name" id="first-name" placeholder="Enter your first name" />
+            <span id="firstName-error" class="error-message"></span>
+          </div>
+          <div class="last-name">
+            <label for="last-name" class="input-text-label">Last Name</label>
+            <input type="text" class="textfield" name="last-name" id="last-name" placeholder="Enter your last name" />
+            <span id="lastName-error" class="error-message"></span>
+          </div>
+        </div>
+
+        <!-- Address Fields -->
+        <div class="address-field">
+          <label for="address1" class="input-text-label">Address 1</label>
+          <input type="text" class="textfield" name="address1" id="address1" placeholder="Enter Address 1" />
+          <span id="address1-error" class="error-message"></span><br><br>
+        </div>
+
+        <div class="address-field">
+          <label for="address2" class="input-text-label">Address 2 (Optional)</label>
+          <input type="text" class="textfield" name="address2" id="address2" placeholder="Enter Address 2 (Optional)" />
+          <span id="address2-error" class="error-message"></span>
+        </div>
+
+        <!-- Postal Code -->
+        <div class="postal-field">
+          <label for="postal-code" class="input-text-label">Postal Code</label>
+          <input type="text" class="textfield" name="postal-code" id="postal-code" placeholder="Enter Postal Code" />
+          <span id="postalCode-error" class="error-message"></span><br><br>
+        </div>
+
+        <!-- City and Province -->
+        <div class="city-and-province">
+          <div class="city">
+            <label for="city" class="input-text-label">City</label>
+            <input type="text" class="textfield" name="city" id="city" placeholder="Enter City" />
+            <span id="city-error" class="error-message"></span><br><br>
+          </div>
+          <div class="province">
+            <label for="province" class="input-text-label">Province</label>
+            <input type="text" class="textfield" name="province" id="province" placeholder="Enter Province" />
+            <span id="province-error" class="error-message"></span><br><br>
+          </div>
+        </div>
+
+        <!-- Phone Number -->
+        <div class="phone-field">
+          <label for="phone-number" class="input-text-label">Phone Number</label>
+          <input type="tel" class="textfield" name="phone-number" id="phone-number" placeholder="Enter Phone Number" />
+          <span id="phoneNumber-error" class="error-message"></span>
+        </div>
+
+        <!-- Shipping Fee Section -->
+        <div class="shipping-container">
+          <div class="shipping-subtitle">Shipping Method</div>
+
+          <!-- Options (Checkboxes) -->
+        <div class="shipping-options">
+          <input type="radio" id="standard-shipping" name="shipping" value="standard">
+          <label for="standard-shipping">Standard Shipping (3-5 business days) - $10.99</label><br>
+
+          <input type="radio" id="express-shipping" name="shipping" value="express">
+          <label for="express-shipping">Express Shipping (1-2 business days) - $20.99</label><br>
+          <span id="shipping-method-error" class="error-message"></span>
+        </div>
+
+        <!-- Order Summary and Pay -->
+        <div class="order-summary-box">
+          <div class="order-summary-header">
+            <span class="order-summary-title">ORDER SUMMARY</span>
+          </div>
+
+          <div class="order-summary-details">
+          </div>
+
+          <div class="checkout">
+            <input type="submit" value="Checkout" />
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    <script src="scripts/checkout.js"></script>
+  </body>
+</html>

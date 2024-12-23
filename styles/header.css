@@ -1,0 +1,103 @@
+header {
+    height: 80px; 
+    width: 100%;
+    background-color:#701814;
+}
+
+.header-container {
+    display: flex;
+    height: 100%;
+}
+
+.header-container div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.hamburger-icon {
+    flex: 0.7; 
+    position: relative;
+}
+
+.hamburger-icon img{
+    object-fit: cover;
+    width: 13%; 
+    height: 23%;
+    cursor: pointer;
+    position: absolute;
+    left:30%;
+}
+
+.app-logo {
+    flex: 1; 
+    position: relative;
+}
+
+.app-logo img{
+    object-fit: cover;
+    width: 37%; 
+    height: 77%;
+    border-radius: 15%;
+    position: absolute;
+    right: 80%;
+}
+
+.flag img {
+    width: 50px;
+    height: auto;
+    margin-right: 30px;
+}
+
+.search-bar {
+    flex: 3; 
+    position: relative;
+}
+
+.search-bar input {
+    padding: 10px;
+    width: 60%;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    position: absolute;
+    left: 3%;
+}
+
+.cart-icon {
+    flex: 0.7;
+    position: relative;
+}
+
+.cart-icon img{
+    object-fit: 10%;
+    width: 25%; 
+    height: auto;
+    cursor: pointer;
+    position: absolute;
+    bottom: 19%;
+    right: 22%;
+}
+
+.cart-icon span {
+    background-color: white;
+    color: #36312C;
+    border-radius: 50%;
+    width: 27px;
+    height: 31px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: bold;
+    position: absolute;
+    top: 13%;
+    right: 25%;
+}
+
+.cart-icon a {
+    text-decoration: none;
+}

@@ -1,0 +1,211 @@
+/* General Checkout Section */
+.CHECKOUT {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  padding: 20px 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #701814;
+  padding: 0;
+  margin: 0;
+  height: 80px
+}
+
+header h1 {
+  font-size: 30px;
+  margin-right: 460px;
+  color: white;
+}
+
+#home-logo{
+  width: 20%;
+  height: 65%;
+  border-radius: 15%;
+  margin-left: 30px;
+}
+
+#cart-icon{
+  object-fit: 10%;
+  cursor: pointer;
+  width: 50px;
+  height: auto;
+  position: absolute;
+  top: 4%;
+  right: 5.5%;
+}
+
+#cart-count {
+  background-color: white;
+  color: #36312C;
+  border-radius: 50%;
+  width: 27px;
+  height: 31px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  font-weight: bold;
+  position: absolute;
+  top: 1.8%;
+  right: 7.6%;
+}
+
+header img {
+  width: 50px;
+  height: auto;
+  margin-right: 30px;
+}
+
+/* Checkout Title */
+.text-wrapper {
+  font-weight: 700;
+  color: #36312C;
+  font-size: 40px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Subtitle for Your Details */
+.your-details-subtitle,
+.shipping-subtitle {
+  font-weight: 700;
+  color: #36312C;
+  font-size: 22px;
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+/* Form Container on the Left */
+.form-container {
+  position: absolute;
+  top: 70px;
+  left: 40px;
+  width: 400px;  /* Reduced width */
+  padding: 10px;
+}
+
+/* Form Labels */
+.input-text-label {
+  font-weight: 300;
+  color: #36312C;
+  font-size: 17px;
+  margin-bottom: 5px;
+  display: block;
+}
+
+/* Input Fields */
+.textfield {
+  width: 100%;
+  padding: 8px;  /* Reduced padding */
+  font-size: 17px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  margin-bottom: 15px;  /* Reduced margin */
+}
+
+.name-fields {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;  /* Increased gap for more separation between the fields */
+  margin-bottom: 15px;  /* Reduced margin */
+}
+
+.name-fields .password {
+  width: 48%;
+}
+.error-message {
+  color: #C5352A;
+  font-size: 15px;
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+
+/* Shipping Fee Container (Slightly Under the Phone Number Field) */
+.shipping-container {
+  position: relative;
+  top: 40px;  /* Slightly under the Phone Number */
+  left: 0px;
+  width: 400px;  /* Reduced width */
+  margin-bottom: 100px;
+}
+
+/* Shipping Options */
+.shipping-options {
+  margin-top: 10px;
+  line-height: 35px;
+}
+
+.option {
+  margin-bottom: 8px;  /* Reduced margin */
+  font-size: 16px;
+}
+
+.option label {
+  margin-left: 5px;
+}
+/* Order Summary Box */
+.order-summary-box {
+  position: fixed;  /* Fixed positioning to keep it on the right */
+  top: 200px;  /* Increased top value to move the box lower */
+  right: 60px;  /* Keep it fully to the right */
+  width: 600px;  /* Increased width for the box */
+  padding: 40px;  /* Increased padding for more space inside */
+  background-color: white;
+  border-radius: 12px;  /* Slightly larger border radius for a smoother corner */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);  /* Larger shadow for more emphasis */
+}
+
+/* Order Summary Header */
+.order-summary-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.order-summary-title {
+  font-family: "Noto Sans-Bold", Helvetica;
+  font-weight: 700;
+  font-size: 28px;  /* Increased font size for the title */
+  color: #36312C;
+}
+
+/* Order Summary Details */
+.order-summary-details {
+  margin-top: 30px;  /* Increased margin for more space between details */
+}
+
+.order-summary-details p {
+  font-size: 20px;  /* Increased font size for better readability */
+  margin: 12px 0;  /* More spacing between lines */
+}
+.checkout input[type="submit"] {
+  background-color: #AFA3A5;
+  color: #36312C;
+  padding: 15px 32px; /* Padding to make the button larger */
+  text-align: center; /* Center the text */
+  text-decoration: none; /* Remove any underlines */
+  display: inline-block; /* Keep the button inline */
+  font-size: 20px; /* Font size */
+  font-weight: bold;
+  border: none; /* Remove border */
+  border-radius: 4px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+  width: 100%; /* Make the button stretch to fill the container */
+}
+
+.checkout input[type="submit"]:hover {
+  background-color: #701814;
+  color: white;
+}
+
+#total-price{
+  color: #C5352A;
+  font-weight: bold;
+}

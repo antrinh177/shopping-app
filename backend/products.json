@@ -1,0 +1,178 @@
+[
+    {
+        "Id": 1,
+        "Product name": "Winter Red Sweater",
+        "Color": "Red",
+        "Size": "M",
+        "Rating": 40,
+        "Price": 40,
+        "Count": 87,
+        "Image": "images/products/winter-red-sweater.png",
+        "Import Date": "2024-11-30T00:00:00Z"
+    },
+    {
+        "Id": 2,
+        "Product name": "Black Leather Jacket",
+        "Color": "Black",
+        "Size": "L",
+        "Rating": 50,
+        "Price": 120,
+        "Count": 60,
+        "Image": "images/products/black-leather-jacket.png",
+        "Import Date": "2024-05-30T00:00:00Z"
+    },
+    {
+        "Id": 3,
+        "Product name": "Blue Denim Jeans",
+        "Color": "Blue",
+        "Size": "S",
+        "Rating": 45,
+        "Price": 50,
+        "Count": 120,
+        "Image": "images/products/blue-denim-jeans.png",
+        "Import Date": "2024-10-25T00:00:00Z"
+    },
+    {
+        "Id": 4,
+        "Product name": "Floral Summer Dress",
+        "Color": "Pink",
+        "Size": "M",
+        "Rating": 35,
+        "Price": 30,
+        "Count": 57,
+        "Image": "images/products/floral-summer-dress.png",
+        "Import Date": "2024-12-01T00:00:00Z"
+    },
+    {
+        "Id": 5,
+        "Product name": "White Cotton T-shirt",
+        "Color": "White",
+        "Size": "L",
+        "Rating": 50,
+        "Price": 20,
+        "Count": 99,
+        "Image": "images/products/white-cotton-t-shirt.png",
+        "Import Date": "2024-11-20T00:00:00Z"
+    },
+    {
+        "Id": 6,
+        "Product name": "Brown Woolen Scarf",
+        "Color": "Brown",
+        "Size": "M",
+        "Rating": 40,
+        "Price": 15,
+        "Count": 100,
+        "Image": "images/products/brown-woolen-scarf.png",
+        "Import Date": "2024-09-25T00:00:00Z"
+    },
+    {
+        "Id": 7,
+        "Product name": "Gray Oversized Hoodie",
+        "Color": "Gray",
+        "Size": "L",
+        "Rating": 45,
+        "Price": 60,
+        "Count": 135,
+        "Image": "images/products/gray-oversized-hoodie.png",
+        "Import Date": "2024-10-15T00:00:00Z"
+    },
+    {
+        "Id": 8,
+        "Product name": "Plaid Mini Skirt",
+        "Color": "Red",
+        "Size": "S",
+        "Rating": 30,
+        "Price": 25,
+        "Count": 58,
+        "Image": "images/products/plaid-mini-skirt.png",
+        "Import Date": "2024-12-01T00:00:00Z"
+    },
+    {
+        "Id": 9,
+        "Product name": "Navy Puffer Jacket",
+        "Color": "Navy",
+        "Size": "XL",
+        "Rating": 50,
+        "Price": 90,
+        "Count": 40,
+        "Image": "images/products/navy-puffer-jacket.png",
+        "Import Date": "2024-12-02T00:00:00Z"
+      },
+      {
+        "Id": 10,
+        "Product name": "Beige Trench Coat",
+        "Color": "Beige",
+        "Size": "M",
+        "Rating": 45,
+        "Price": 110,
+        "Count": 25,
+        "Image": "images/products/beige-trench-coat.png",
+        "Import Date": "2024-12-03T00:00:00Z"
+      },
+      {
+        "Id": 11,
+        "Product name": "Black High Heels",
+        "Color": "Black",
+        "Size": "38",
+        "Rating": 40,
+        "Price": 70,
+        "Count": 30,
+        "Image": "images/products/black-high-heels.png",
+        "Import Date": "2024-12-04T00:00:00Z"
+      },
+      {
+        "Id": 12,
+        "Product name": "Green Knit Cardigan",
+        "Color": "Green",
+        "Size": "S",
+        "Rating": 35,
+        "Price": 45,
+        "Count": 55,
+        "Image": "images/products/green-knit-cardigan.png",
+        "Import Date": "2024-12-05T00:00:00Z"
+      },
+      {
+        "Id": 13,
+        "Product name": "Red Evening Gown",
+        "Color": "Red",
+        "Size": "M",
+        "Rating": 50,
+        "Price": 150,
+        "Count": 15,
+        "Image": "images/products/red-evening-gown.png",
+        "Import Date": "2024-12-06T00:00:00Z"
+      },
+      {
+        "Id": 14,
+        "Product name": "Brown Hiking Boots",
+        "Color": "Brown",
+        "Size": "41",
+        "Rating": 40,
+        "Price": 85,
+        "Count": 35,
+        "Image": "images/products/brown-hiking-boots.png",
+        "Import Date": "2024-12-07T00:00:00Z"
+      },
+      {
+        "Id": 15,
+        "Product name": "Yellow Raincoat",
+        "Color": "Yellow",
+        "Size": "L",
+        "Rating": 45,
+        "Price": 60,
+        "Count": 50,
+        "Image": "images/products/yellow-raincoat.png",
+        "Import Date": "2024-12-08T00:00:00Z"
+      },
+      {
+        "Id": 16,
+        "Product name": "White Running Sneakers",
+        "Color": "White",
+        "Size": "40",
+        "Rating": 30,
+        "Price": 80,
+        "Count": 60,
+        "Image": "images/products/white-running-sneakers.png",
+        "Import Date": "2024-12-09T00:00:00Z"
+      }
+]
