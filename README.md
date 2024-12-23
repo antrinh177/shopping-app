@@ -25,25 +25,19 @@
       - Provide a button to proceed to checkout.
       - Reset cart and input information after checkout.
 3. Technologies to be Used
+
+   • JS: 
+    - Variables and Data Types
+    - Operators
+    - Control Flow
+    - Functions
+    - Objects and Arrays
+    - DOM Manipulation
+    - JSON
+    - Async/Await
+    - Local Storage
+    - Error Handling
+    - API: Express JS
    
-    • Variables and Data Types
-   
-    • Operators
-   
-    • Control Flow
-   
-    • Functions
-   
-    • Objects and Arrays
-   
-    • DOM Manipulation
-   
-    • JSON (JavaScript Object Notation)
-   
-    • Async/Await
-   
-    • Local Storage
-   
-    • Error Handling
-   
-    • API: Express JS
+   • CSS
+   • HTML
