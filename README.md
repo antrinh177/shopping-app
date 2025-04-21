@@ -1,3 +1,5 @@
+To run: need to run server.js from local to push data to Express.js server then the provided link will populate data
+
 1. Project Scope
 
     • Home Page:
